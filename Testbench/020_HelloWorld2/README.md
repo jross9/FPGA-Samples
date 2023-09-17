@@ -40,4 +40,4 @@ C:\Jar\FPGA\Samples\TestBench\020_HelloWorld2>icarus.bat
 testb.v:12: $finish called at 100 (1s)
 ```
 
-This shows how the always block only occurs when clk has turned to 1 -- in fact on the posive edge of the signal.
+This shows how the always block only occurs when clk has turned to 1 -- in fact on the positive edge of the signal.
