@@ -8,9 +8,9 @@ In most all hardware designs we need a clock to drive the logic of our circuit.
         clk = ~clk; 
 ```
 
-For every 10 time units the clock flips between a logical 1 and logical 0. 
+For every 10 time units the clock flips between a logical 1 and logical 0 and back. 
 
-In the next couple of lines we create a always block. Here we tell it to only run on the positive edge of the clock
+We create a `always` block and tell it to only run on the positive edge of the clock
 
 ```verilog
     always @(posedge clk)
