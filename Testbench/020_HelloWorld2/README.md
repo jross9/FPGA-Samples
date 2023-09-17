@@ -1,4 +1,4 @@
-# Time Units
+# always blocks
 
 In most all hardware designs we need a clock to drive the logic of our circuit.
 
@@ -14,14 +14,14 @@ In the next couple of lines we create a always block. Here we tell it to only ru
 
 ```verilog
 	always @(posedge clk)
-		$display("%t Hello World!", $time);
+		$display("%t (clk=%d) Hello, World!", $time, clk);
 ```
 
-And finally we have the testbench `initial` block – only ever used during simulations. 
+And finally we have the testbench `initial` block - only ever used during simulations. 
 
-In the initial block we need to explicitly define our signal’s initial values.
+In the initial block we need to explicitly define our signal's initial values.
 
-```
+```verilog
 	initial begin
 		clk = 0;
 		#100 $finish;
