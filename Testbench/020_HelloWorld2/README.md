@@ -3,9 +3,9 @@
 In most all hardware designs we need a clock to drive the logic of our circuit.
 
 ```verilog
-	reg clk;
-	always #10 
-		clk = ~clk; 
+    reg clk;
+    always #10 
+        clk = ~clk; 
 ```
 
 For every 10 time units the clock flips between a logical 1 and logical 0. 
@@ -13,8 +13,8 @@ For every 10 time units the clock flips between a logical 1 and logical 0.
 In the next couple of lines we create a always block. Here we tell it to only run on the positive edge of the clock
 
 ```verilog
-	always @(posedge clk)
-		$display("%t (clk=%d) Hello, World!", $time, clk);
+    always @(posedge clk)
+        $display("%t (clk=%d) Hello, World!", $time, clk);
 ```
 
 And finally we have the testbench `initial` block - only ever used during simulations. 
@@ -22,10 +22,10 @@ And finally we have the testbench `initial` block - only ever used during simula
 In the initial block we need to explicitly define our signal's initial values.
 
 ```verilog
-	initial begin
-		clk = 0;
-		#100 $finish;
-	end
+    initial begin
+        clk = 0;
+        #100 $finish;
+    end
 ```
 
 The results of our testbench now look like this: 
