@@ -1,5 +1,5 @@
-# FPGA Samples
+# Internet Archive (iArch)
 
-We all learn through examples. It’s kind of like training an AI – only after we have seen enough concrete examples of a concept do we begin to fully understand it. 
+My local archive of samples and examples found on the internet.  Curated to a certain degree and verified working by me.
 
-This is my site of FPGA / HDL examples.
+Each one will have it own README that tells where I found the original and links to it. Also in the folder, I will save the original d/l’ed zip file.
