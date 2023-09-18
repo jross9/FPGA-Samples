@@ -10,7 +10,7 @@ In most all hardware designs we need a clock to drive the logic of our circuit.
 
 For every 10 time units the clock flips between a logical 1 and logical 0 and back. 
 
-We create a `always` block and tell it to only run on the positive edge of the clock
+We create an `always` block and tell it to only run on the positive edge of the clock
 
 ```verilog
     always @(posedge clk)

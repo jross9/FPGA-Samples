@@ -2,7 +2,7 @@
 
 The way I understand it, in a testbench, the time units are somewhat arbitrary.  I will revisit the time units in simulations at a later date. 
 
-In this example we show how time is measured in units. We we define time in units denoted by a ‘#’ then a number which represents the amount of time that will pass until the next one. 
+In this example we show how time is measured in units. We define time in units denoted by a ‘#’ then a number which represents the amount of time that will pass until the next one. 
 
 For example: 
 
