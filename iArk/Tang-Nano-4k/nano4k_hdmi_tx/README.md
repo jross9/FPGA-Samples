@@ -1,5 +1,7 @@
 
-[xxxx](https://github.com/verilog-indeed/nano4k_hdmi_tx)
+### [nano4k_hdmi_tx](https://github.com/verilog-indeed/nano4k_hdmi_tx)
+
+We have lots to dissect and understand from this example! It’s a good one! Will be coming back to it and making observations and notes. 
 
 ------
 
