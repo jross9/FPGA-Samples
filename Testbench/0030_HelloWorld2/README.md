@@ -31,7 +31,7 @@ In the initial block we need to explicitly define our signal's initial values.
 The results of our testbench now look like this: 
 
 ```
-C:\Jar\FPGA\Samples\TestBench\020_HelloWorld2>icarus.bat
+> icarus.bat
                   10 (clk=1) Hello, World!
                   30 (clk=1) Hello, World!
                   50 (clk=1) Hello, World!

@@ -11,7 +11,7 @@ We add an always block that only occurs on the `negedge` (negative edge) of the 
 Now the results of our testbench look like this: 
 
 ```
-C:\Jar\FPGA\Samples\Testbench\030_HelloWorld3>icarus.bat
+> icarus.bat
                    0 (clk=0) Goodbye, World!
                   10 (clk=1) Hello, World!
                   20 (clk=0) Goodbye, World!

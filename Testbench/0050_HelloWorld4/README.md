@@ -13,7 +13,7 @@ We can combine multiple constraints in a single always block … this is functiona
 The results continue to be the same:
 
 ```
-C:\Jar\FPGA\Samples\Testbench\040_HelloWorld4>icarus
+> icarus.bat
                    0 (clk=0) Goodbye, World!
                   10 (clk=1) Hello, World!
                   20 (clk=0) Goodbye, World!
