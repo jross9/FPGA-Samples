@@ -1,10 +1,11 @@
 module bouncy_box_top(
-                                input crystalCLK,
-                                output [2:0] tmdsChannel_p,
-                                output tmdsClockChannel_p,
-                                output [2:0] tmdsChannel_n,
-                                output tmdsClockChannel_n
-                      );
+        input crystalCLK,
+        output [2:0] tmdsChannel_p,
+        output tmdsClockChannel_p,
+        output [2:0] tmdsChannel_n,
+        output tmdsClockChannel_n
+    );
+
     localparam	WHITE	= {8'd255 , 8'd255 , 8'd255 };//{R,G,B}
     localparam	YELLOW	= { 8'd255 , 8'd255, 8'd0   };
     localparam	CYAN	= { 8'd0, 8'd255 , 8'd255   };
