@@ -1,4 +1,11 @@
 # ---------------------------
+# Tang Nano BUILD files
+# ---------------------------
+**/impl/gwsynthesis
+**/impl/pnr
+**/impl/temp
+*.gprj.user
+# ---------------------------
 # Simulation Files
 # ---------------------------
 *.vvp
