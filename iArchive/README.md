@@ -1,4 +1,4 @@
-# Internet Archive (iArch)
+# Internet Archive (iArchive)
 
 My local archive of samples and examples found on the internet.  Curated to a certain degree and verified working by me.
 
