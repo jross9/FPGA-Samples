@@ -1,23 +1,15 @@
 # always blocks
 
-In most all hardware designs we need a clock to drive the logic of our circuit.
+Always blocks 
 
-```verilog
-    reg clk;
-    always #10 
-        clk = ~clk; 
-```
-
-For every 10 time units the clock flips between a logical 1 and logical 0 and back. 
-
-We create an `always` block and tell it to only run on the positive edge of the clock
+Here, we create an `always` block and tell it to only run only the positive edge of the clock
 
 ```verilog
     always @(posedge clk)
         $display("%t (clk=%d) Hello, World!", $time, clk);
 ```
 
-And finally we have the testbench `initial` block - only ever used during simulations. 
+We have the testbench `initial` block - only ever used during simulations. 
 
 In the initial block we need to explicitly define our signal's initial values.
 

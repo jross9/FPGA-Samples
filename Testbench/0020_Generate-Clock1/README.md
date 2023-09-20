@@ -12,7 +12,7 @@ For every 10 time units the clock flips between a logical 1 and logical 0 and ba
 
 In the initial block we run the entire test, which is simply showing us the value of the clock signal.
 
-```
+```verilog
     initial begin
         clk = 0;
 
