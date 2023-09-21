@@ -1,5 +1,6 @@
 # RAM.v
 Our RAM modules has 4 inputs
+
 ```verilog
 module RAM(
 		input clk,            // Clock input
@@ -9,19 +10,25 @@ module RAM(
 		output [3:0] q        // 4-bit data output for read
 	);
 ```
+
 We define the memory registers:
+
 
 ```verilog
 	reg [3:0] memory [15:0]; // 16 locations of 4-bit data
 ```
+
 In the always block on the positive edge of the clock we check the write enable:
+
 ```verilog
 	always @(posedge clk) begin
 		if (wren)
 			memory[address] <= data;
 	end
 ```
+
 Regardless we will read the memory that is there an put it in q (why not just do this on reads? !wren good question)
+
 ```verilog
 	assign q = memory[address];
 ```
@@ -30,13 +37,16 @@ Regardless we will read the memory that is there an put it in q (why not just do
 
 we define 4 variables write_enable and address must be registers becuase ... (again good question! will return to it)
 
+
 ```verilog
 	reg write_enable;
 	reg [3:0] address;
 	wire [3:0] data_in;
 	wire [3:0] data_out;
 ```
+
 Instantiate our RAM module
+
 
 ```verilog
 	RAM ram (
@@ -47,18 +57,34 @@ Instantiate our RAM module
 		.q(data_out)
 	);
 ```
+
 our address counter, just like the ROM example
+
 ```verilog
 	always @(posedge clk) begin
 		address <= address + 1'b1;
 		$display("%t %h %h %h %h", $time, clk, address, data_in, data_out);
 	end
 ```
+
 make data_in be the complement of the address
+
 ```verilog
 	assign data_in = ~address;
 ```
 
+explain initial block here ... 
+
+```verilog
+	initial begin
+		clk = 0;
+		address = 0;
+		write_enable = 1'b1;
+		#320 write_enable = 1'b0;
+			 $display("-------------------------");
+		#320 $finish;
+	end
+```
 The results are:
 ```
 > icarus.bat
