@@ -17,7 +17,7 @@ We increment the counter on the positive edge of the clock!
     end
 ```
 
-To log the time and see what our counter is doing we 
+To log the time and see what our counter is doing we do this in the `initial` block:
 
 ```verilog
     initial begin
@@ -46,7 +46,7 @@ To log the time and see what our counter is doing we
         #10 $finish;
     end
 ```
-The results continue to be the same:
+The results are:
 ```
 > icarus.bat
                    0 (0) 0
