@@ -73,7 +73,6 @@ We do this in the `initial` block:
 The results are:
 ```
 > icarus.bat
-C:\Jar\FPGA\Samples\Testbench\080_ROM1>vvp test.vvp
                   10 0 f
                   30 1 e
                   50 2 d
