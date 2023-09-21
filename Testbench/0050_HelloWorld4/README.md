@@ -1,16 +1,18 @@
 # always blocks
 
-We can combine multiple constraints in a single always block … this is functionally the same as the previous example:
+If we simply specify `clk` in our sensitivity list, the `always` block will execute whenever there is a change in the `clk` signal.
+
+And this is functionally equivelant to our previous example (i.e. log any change in `clk`):
 
 ```verilog
-    always @(posedge clk or negedge clk)
+    always @(clk)
         if (clk)
             $display("%t (clk=%d) Hello, World!", $time, clk);
         else 
             $display("%t (clk=%d) Goodbye, World!", $time, clk);
 ```
 
-The results continue to be the same:
+The results continue to be the same as the previous example:
 
 ```
 > icarus.bat

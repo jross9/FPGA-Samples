@@ -4,7 +4,7 @@ module testb;
 	always #10 
 		clk = ~clk; 
 
-	always @(posedge clk or negedge clk)
+	always @(clk)
 		if (clk)
 			$display("%t (clk=%d) Hello, World!", $time, clk);
 		else 

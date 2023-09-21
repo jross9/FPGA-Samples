@@ -3,9 +3,11 @@
 We add an always block that only occurs on the `negedge` (negative edge) of the clock: 
 
 ```verilog
-    always @(negedge clk)
-         $display("%t (clk=%d) Goodbye, World!", $time, clk);
-    end
+	always @(posedge clk)
+		$display("%t (clk=%d) Hello, World!", $time, clk);
+
+	always @(negedge clk)
+		$display("%t (clk=%d) Goodbye, World!", $time, clk);
 ```
 
 Now the results of our testbench look like this: 
