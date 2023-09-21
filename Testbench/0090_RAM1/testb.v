@@ -28,7 +28,6 @@ module testb;
 		clk = 0;
 		address = 0;
 		write_enable = 1'b1;
-
 		#320 write_enable = 1'b0;
 			 $display("-------------------------");
 		#320 $finish;
