@@ -60,32 +60,29 @@ parameter V_sync_cycle = 2;
 
 reg [10:0] h_cnt;
 reg [9:0]  v_cnt;
-wire cHD,cVD,cDEN,hori_valid,vert_valid;
+wire cHD, cVD, cDEN, hori_valid, vert_valid;
 
-///////
+/////
 
 always@(negedge vga_clk, posedge reset)
 begin
-  if (reset)
-  begin
-     h_cnt <= 11'd0;
-     v_cnt <= 10'd0;
-  end
-    else
-    begin
-      if (h_cnt == hori_line-1)
-      begin 
-         h_cnt <= 11'd0;
-         if (v_cnt == vert_line-1)
-            v_cnt <= 10'd0;
-         else
-            v_cnt <= v_cnt+1;
-      end
-      else
-         h_cnt <= h_cnt+1;
-    end
+	if (reset) begin
+		h_cnt <= 11'd0;
+		v_cnt <= 10'd0;
+	end else begin
+		if (h_cnt == hori_line-1) begin 
+			h_cnt <= 11'd0;
+			if (v_cnt == vert_line-1)
+				v_cnt <= 10'd0;
+			else
+				v_cnt <= v_cnt+1;
+		end else
+			h_cnt <= h_cnt+1;
+	end
 end
+
 /////
+
 assign cHD = (h_cnt < H_sync_cycle) ? 1'b0 : 1'b1;
 assign cVD = (v_cnt < V_sync_cycle) ? 1'b0 : 1'b1;
 
@@ -96,9 +93,9 @@ assign cDEN = hori_valid && vert_valid;
 
 always@(negedge vga_clk)
 begin
-  HS <= cHD;
-  VS <= cVD;
-  blank_n <= cDEN;
+	HS <= cHD;
+	VS <= cVD;
+	blank_n <= cDEN;
 end
 
 endmodule
