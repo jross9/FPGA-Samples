@@ -22,7 +22,7 @@ I have quite the collection of FPGA development boards:
 * 2 x Tang Nano 9k
 * 1 x Tang Nano 20k
 
-And I have one on the way from eBay ...  Altera Cyclone II FPGA Starter Development Kit (which I believe is just a DE1 that was sold by Altera w/ the Altera brand?) 
+And I have one on the way from eBay ...  Altera Cyclone II FPGA Starter Development Kit (which I believe is just a DE1 that was sold by Altera w/ the Altera brand? Paid $40 + ($20 s/h & taxes), impulse buy but pretty good price!) 
 
 -----
 
