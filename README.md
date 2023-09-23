@@ -11,8 +11,8 @@ I have quite the collection of FPGA development boards:
 * 1 x DE0
 * 2 x DE0-Nano 
 * 1 x DE0-Nano-SoC
-* 2 x DE1
-* 1 x DE1-SoC
+* 2 x [DE1](DE1)
+* 1 x [DE1-SoC](DE1-SoC)
 * 2 x DE2
 * 1 x DE2-70
 * 1 x DE10-Nano
