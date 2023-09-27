@@ -23,15 +23,15 @@ I will have
 Blinky
 |
 |-- Common
-|   |-- Common Source Files to boards
+|   |-- Common source files to project
 |
 |-- DE1
 |   |-- Top_Level.v
-|   |-- DE1 project files
+|   |-- DE1 project files (*.qpf|*.qsf ... etc)
 |
 |-- DE2
-|   | – Top_Level.v
-|   |-- DE2 project files
+|   |-- Top_Level.v
+|   |-- DE2 project files (*.qpf|*.qsf ... etc)
 ```
 -----
 
