@@ -24,6 +24,7 @@ Blinky
 |
 |-- Common
 |   |-- Common source files to project
+|   |-- Blinky.v ... etc
 |
 |-- DE1
 |   |-- Top_Level.v
