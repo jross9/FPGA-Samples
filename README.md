@@ -6,6 +6,35 @@ This is my site of FPGA / HDL examples.
 
 -----
 
+I need to change the way I am doing this; instead of categorizing by development board and have duplicate projects under those boards, I need to categorize by example and under each example have project / build files by development boards.  
+
+So instead of having
+```
+DE1 
+|
+|-- Blinky
+
+DE2
+|
+|-- Blinky
+```
+I will have
+```
+Blinky
+|
+|-- Common
+|   |-- Common Source Files to boards
+|
+|-- DE1
+|   |-- Top_Level.v
+|   |-- DE1 project files
+|
+|-- DE2
+|   | – Top_Level.v
+|   |-- DE2 project files
+```
+-----
+
 I have quite the collection of FPGA development boards:
 
 * 1 x DE0
