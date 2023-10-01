@@ -1,4 +1,4 @@
-module DE0Nano_Top(
+module Blinky_Top(
 		input CLOCK_50,
 		output LEDG7
 	);

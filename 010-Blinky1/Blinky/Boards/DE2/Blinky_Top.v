@@ -1,4 +1,4 @@
-module DE2_Top(
+module Blinky_Top(
 		input CLOCK_50,
 		output LEDR17
 	);

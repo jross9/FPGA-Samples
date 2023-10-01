@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE22F17C6
-set_global_assignment -name TOP_LEVEL_ENTITY DE0Nano_Top
+set_global_assignment -name TOP_LEVEL_ENTITY Blinky_Top
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:01:01  September 1, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -63,7 +63,7 @@ set_location_assignment PIN_L3 -to LEDG7
 # FILE ASSIGNMENTS
 # -------------------------------------------------------------------------- #
 
-set_global_assignment -name VERILOG_FILE DE0Nano_Top.v
+set_global_assignment -name VERILOG_FILE Blinky_Top.v
 set_global_assignment -name VERILOG_FILE ../../Blinky.v
 
 # -------------------------------------------------------------------------- #

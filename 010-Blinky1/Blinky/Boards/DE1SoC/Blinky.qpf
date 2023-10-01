@@ -28,4 +28,4 @@ DATE = "01:01:01  September 1, 2023"
 
 # Revisions
 
-PROJECT_REVISION = "DE1SoC"
+PROJECT_REVISION = "Blinky"
