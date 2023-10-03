@@ -1,7 +1,7 @@
-module Blinky(
-	input CLK50,  // 50 MHz Clock
-	output LED    // LED to blink
-);
+module Blinky (
+		input CLK50,  // 50 MHz Clock
+		output LED    // LED to blink
+	);
 
 	localparam DELAY = 25'd25_000_000-1;      // 1 blink a second  
 	// localparam DELAY = 25'd12_500_000-1;   // 2 blinks a second
@@ -20,4 +20,4 @@ module Blinky(
 
 	assign LED = clk;
 
-endmodule
+endmodule // Blinky

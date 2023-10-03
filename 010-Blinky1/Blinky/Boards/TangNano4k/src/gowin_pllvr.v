@@ -4,7 +4,7 @@
 //GOWIN Version: V1.9.8.11 Education
 //Part Number: GW1NSR-LV4CQN48PC6/I5
 //Device: GW1NSR-4C
-//Created Time: Fri Sep 29 18:10:02 2023
+//Created Time: 01:01:01  September 1, 2023
 
 module Gowin_PLLVR (clkout, clkin);
 

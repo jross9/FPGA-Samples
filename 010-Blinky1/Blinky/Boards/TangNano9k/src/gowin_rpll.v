@@ -5,7 +5,7 @@
 //Part Number: GW1NR-LV9QN88PC6/I5
 //Device: GW1NR-9
 //Device Version: C
-//Created Time: Fri Sep 29 16:54:54 2023
+//Created Time: 01:01:01  September 1, 2023
 
 module Gowin_rPLL (clkout, clkin);
 

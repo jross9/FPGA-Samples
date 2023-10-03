@@ -1,4 +1,4 @@
-module Blinky_Top(
+module Blinky_Top (
 		input CLOCK_50,
 		output LEDR9
 	);
@@ -8,4 +8,4 @@ module Blinky_Top(
 		.LED(LEDR9)         // output LED
 	);
 
-endmodule
+endmodule // Blinky_Top

@@ -14,4 +14,4 @@ module Blinky_Top (
 		.LED(LED)          // output LED
 	);
 
-endmodule
+endmodule // Blinky_Top

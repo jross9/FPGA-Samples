@@ -5,7 +5,8 @@
 //Part Number: GW2AR-LV18QN88C8/I7
 //Device: GW2AR-18
 //Device Version: C
-//Created Time: Sat 09 30 00:56:52 2023
+//Created Time: 01:01:01  September 1, 2023
 
 IO_LOC "LED6" 20;
 IO_LOC "CLK27" 4;
+
