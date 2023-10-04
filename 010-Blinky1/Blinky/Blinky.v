@@ -3,8 +3,8 @@ module Blinky (
 		output LED    // LED to blink
 	);
 
-	localparam DELAY = 25'd25_000_000-1;      // 1 blink a second  
-	// localparam DELAY = 25'd12_500_000-1;   // 2 blinks a second
+	// localparam DELAY = 25'd25_000_000-1;      // 1 blink a second  
+	localparam DELAY = 25'd12_500_000-1;   // 2 blinks a second
 
 	reg [24:0] counter;
 	reg clk;
