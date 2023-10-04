@@ -18,7 +18,7 @@ I have quite the collection of FPGA development boards:
 * 1 x DE10-Lite
 * 2 x DE10-Nano
 * 1 x QMTech Cyclone IV EP4CE15 
-* 2 x Cyclone II EP2C5T144 (generic)
+* 3 x Cyclone II EP2C5T144 (generic)
 * 1 x Tang Nano 4k
 * 2 x Tang Nano 9k
 * 1 x Tang Nano 20k
