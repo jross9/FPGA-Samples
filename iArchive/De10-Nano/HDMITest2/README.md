@@ -26,7 +26,7 @@ This tells me there are errors in the logic somewhere since we should not have t
     assign Y = v_count - v_start-2;
 ```
 
-I need to understand this:
+I need to understand what this is doing:
 
 ```verilog
     vga_de      <=  pre_vga_de;
@@ -40,4 +40,35 @@ Here we set the pixel data
         {vga_r, vga_g, vga_b} <= {RED, GREEN, BLUE};
     else
         {vga_r, vga_g, vga_b} <= {8'h00,8'h00,8'h00};
+```
+
+Back in the top module: `HDMITest.v`
+
+We set the pixel data in some for loops
+
+```
+    always @(posedge hdmi_clk)
+    begin
+        integer h;
+        integer v;
+
+        r_red   <= 8'h00;
+        r_green <= 8'h00;
+        r_blue  <= 8'h00;
+
+        for (h = 0; h < 1920; h = h + 25) begin
+            if (x == h) begin
+                r_red   <= 8'h00;
+                r_green <= 8'hFF;
+                r_blue  <= 8'h00;
+            end 
+        end
+
+        for (v = 0; v < 1080; v = v + 25) begin
+            if (y == v) begin
+                r_red   <= 8'hFF;
+                r_green <= 8'h00;
+                r_blue  <= 8'h00;
+        end 
+    end
 ```
