@@ -1,4 +1,4 @@
-# Works on DE10-Nano that seems to have an HDMI problem!
+# Works on a DE10-Nano that seems to have an HDMI problem!
 
 [https://github.com/dreambbqchild/HDMITest](https://github.com/dreambbqchild/HDMITest)
 
