@@ -46,7 +46,7 @@ Back in the top module: `HDMITest.v`
 
 We set the pixel data in some for loops
 
-```
+```verilog
     always @(posedge hdmi_clk)
     begin
         integer h;
