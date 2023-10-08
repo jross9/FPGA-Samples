@@ -7,12 +7,11 @@ This is my site of FPGA / HDL examples.
 -----
 # The PLAN
 
-```
-* 010-Button   -- simplest example, we press a button and an LED turns on. Let go, it turns off.
-* 020-Button2  -- press a button and an LED turns on. Press button again, LED turns off.
-* 030-Switches -- second simplest example, turn a switch ON LED goes on, turn it OFF LED goes off.
-* 040-[Blinky](040-Blinky)   -- We merely blink a single LED at a given rate!  
-* 050-Blinky2  -- We blink all LEDs that the dev board has. 
+* `010-Button   --` simplest example, we press a button and an LED turns on. Let go, it turns off.
+* `020-Button2  --` press a button and an LED turns on. Press button again, LED turns off.
+* `030-Switches --` second simplest example, turn a switch ON LED goes on, turn it OFF LED goes off.
+* `040-[Blinky](040-Blinky)   --` We merely blink a single LED at a given rate!  
+* `050-Blinky2  --` We blink all LEDs that the dev board has. 
 * 060-Sweep    -- Sweep a set of LED’s back-and-forth.
 * 070-Counter  -- Counter show result in binary on LED's
 * 080-7Seg     -- Counter show result on LED segments
@@ -28,7 +27,6 @@ This is my site of FPGA / HDL examples.
 * 500-CPU      -- 6809 Free-Run
 * 510-CPU1     -- 6809 Simple ROM
 * 900-Logic    -- TTL Logic Family
-```
 -----
 # FPGA collection 
 
