@@ -1,5 +1,4 @@
------
-
+# NEWS
 
 I need to change the way I am doing this; instead of categorizing by development board and have duplicate projects under those boards, I need to categorize by example and under each example have project / build files by development boards.  
 
