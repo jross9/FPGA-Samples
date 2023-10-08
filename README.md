@@ -22,6 +22,7 @@ This is my site of FPGA / HDL examples.
 * 200-ROM      
 * 210-RAM
 * 300-VGA      -- Set screen color to set of three switches (8 colors) 
+* 310-VGA2     -- Create a grid in each of several VGA modes ... 
 * 400-DVI
 * 450-HDMI
 * 500-CPU
