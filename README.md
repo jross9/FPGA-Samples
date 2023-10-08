@@ -25,7 +25,8 @@ This is my site of FPGA / HDL examples.
 * 310-VGA2     -- Create a grid in each of several VGA modes ... 
 * 400-DVI
 * 450-HDMI
-* 500-CPU
+* 500-CPU      -- 6809 Free-Run
+* 510-CPU1     -- 6809 Simple ROM
 * 900-Logic    -- TTL Logic Family
 ```
 -----
