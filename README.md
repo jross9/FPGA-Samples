@@ -19,11 +19,11 @@ This is my site of FPGA / HDL examples.
 * 100-PS2      -- Read PS/2 keyboard
 * 110-PS2M     -- Read PS/2 mouse
 * 150-UART     -- UART example (echo char)
-* 200-ROM      -- Set screen color to set of three switches (8 colors) 
+* 200-ROM      
 * 210-RAM
-* 300-VGA
-* 300-DVI
-* 350-HDMI
+* 300-VGA      -- Set screen color to set of three switches (8 colors) 
+* 400-DVI
+* 450-HDMI
 * 500-CPU
 * 900-Logic    -- TTL Logic Family
 ```
