@@ -7,27 +7,29 @@ This is my site of FPGA / HDL examples.
 -----
 # The PLAN
 
-* 010-Button   -- simplest example, we press a button and an LED turns on. Let go, it turns off.
-* 020-Button2  -- press a button and an LED turns on. Press button again, LED turns off.
-* 030-Switches -- second simplest example, turn a switch ON LED goes on, turn it OFF LED goes off.
-* 040-[Blinky](040-Blinky)   -- We merely blink a single LED at a given rate!  
-* 050-Blinky2  -- We blink all LEDs that the dev board has. 
-* 060-Sweep    -- Sweep a set of LED’s back-and-forth.
-* 070-Counter  -- Counter show result in binary on LED's
-* 080-7Seg     -- Counter show result on LED segments
-* 100-PS2      -- Read PS/2 keyboard
-* 110-PS2M     -- Read PS/2 mouse
-* 150-UART     -- UART example (echo char)
-* 200-ROM      
-* 210-RAM
-* 300-VGA      -- Set screen color to set of three switches (8 colors) 
-* 310-VGA2     -- Create a grid in each of several VGA modes ... 
-* 400-DVI
-* 450-HDMI
-* 500-CPU      -- 6809 Free-Run
-* 510-CPU1     -- 6809 Simple ROM
-* 900-Logic    -- TTL Logic Family
+* Button   -- simplest example, we press a button and an LED turns on. Let go, it turns off.
+* Button2  -- press a button and an LED turns on. Press button again, LED turns off.
+* Switches -- second simplest example, turn a switch ON LED goes on, turn it OFF LED goes off.
+* [Blinky](040-Blinky)   -- We merely blink a single LED at a given rate!  
+* Blinky2  -- We blink all LEDs that the dev board has. 
+* Sweep    -- Sweep a set of LED’s back-and-forth.
+* Counter  -- Counter show result in binary on LED's
+* 7Seg     -- Counter show result on LED segments
+* PS2      -- Read PS/2 keyboard
+* PS2M     -- Read PS/2 mouse
+* UART     -- UART example (echo char)
+* ROM      -- 
+* RAM      -- 
+* VGA      -- Set screen color to set of three switches (8 colors) 
+* VGA2     -- Create a grid in each of several VGA modes ... 
+* DVI      -- 
+* HDMI     -- 
+* CPU      -- 6809 Free-Run
+* CPU1     -- 6809 Simple ROM
+* Logic    -- TTL Logic Family
+
 -----
+
 # FPGA collection 
 
 I have quite the collection of FPGA development boards:
